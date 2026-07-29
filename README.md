@@ -280,6 +280,15 @@ Accepts video URLs, downloads via yt-dlp, sends video files back through Telegra
 
 ---
 
+## Contacts
+
+I am open for freelance projects and full-time positions. Feel free to contact me:
+
+- **Telegram:** [@tasheet](https://t.me/tasheet)
+- **Email:** jmuxsinovjj@gmail.com
+
+---
+
 <p align="center">
   <sub>Backend Python Developer Portfolio — Built with Django, FastAPI & aiogram</sub>
 </p>
