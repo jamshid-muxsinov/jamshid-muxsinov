@@ -70,7 +70,7 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><b>Sarmat</b></h3>
+      <h3><b>AI Photo Studio</b></h3>
       <p>AI-сервис для генерации маркетинговых фотографий одежды: от постановки задачи до выдачи готовой галереи.</p>
       <p><img src="assets/readme/badge-fastapi.svg" alt="FastAPI" height="30" /> <img src="assets/readme/badge-postgresql.svg" alt="PostgreSQL" height="30" /> <img src="assets/readme/badge-redis.svg" alt="Redis" height="30" /> <img src="assets/readme/badge-docker.svg" alt="Docker" height="30" /></p>
       <ul>
