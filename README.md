@@ -138,7 +138,7 @@ A construction company CRM with two apps: admin panel (Kanban board, project man
 
 ---
 
-### Sarmat — AI Marketing Photo Generator
+### AI Photo Studio — AI Marketing Photo Generator
 
 An AI-powered marketing photo generator for clothing. Upload a garment photo, choose background/angle, and AI generates professional model photos for marketplaces. React 18 + TypeScript frontend with FastAPI backend.
 
