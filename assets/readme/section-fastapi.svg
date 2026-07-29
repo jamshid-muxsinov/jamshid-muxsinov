@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="120" viewBox="0 0 1200 120"
+     role="img" aria-labelledby="title desc">
+  <title id="title">FastAPI Projects</title>
+  <desc id="desc">Section header for FastAPI-based projects</desc>
+
+  <defs>
+    <linearGradient id="fastapi-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="120" rx="0" fill="#0a0e1a"/>
+
+  <!-- Accent line -->
+  <rect x="56" y="30" width="4" height="60" rx="2" fill="url(#fastapi-grad)"/>
+
+  <!-- FastAPI icon (lightning bolt shape) -->
+  <g transform="translate(80 35)">
+    <rect x="0" y="0" width="50" height="50" rx="10" fill="#0c1e2c" stroke="#38bdf8" stroke-width="1.5"/>
+    <path d="M28 10 L18 28 L26 28 L22 42 L36 22 L28 22 Z" fill="#38bdf8"/>
+  </g>
+
+  <!-- Section title -->
+  <g transform="translate(148 42)">
+    <text x="0" y="18" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
+          font-size="14" font-weight="500" fill="#38bdf8" letter-spacing="2">FRAMEWORK</text>
+    <text x="0" y="50" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
+          font-size="32" font-weight="700" fill="#e2e8f0">FastAPI Projects</text>
+  </g>
+
+  <!-- Project count badge -->
+  <g transform="translate(1060 40)">
+    <rect x="0" y="0" width="80" height="40" rx="20" fill="#0c1e2c" stroke="#38bdf8" stroke-width="1"/>
+    <text x="40" y="26" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
+          font-size="14" font-weight="600" fill="#38bdf8" text-anchor="middle">6</text>
+  </g>
+
+  <!-- Bottom line -->
+  <line x1="56" y1="100" x2="1144" y2="100" stroke="#1e293b" stroke-width="1"/>
+</svg>
