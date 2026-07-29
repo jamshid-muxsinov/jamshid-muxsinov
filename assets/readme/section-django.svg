@@ -1,43 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="1200" height="120" viewBox="0 0 1200 120"
-     role="img" aria-labelledby="title desc">
-  <title id="title">Django Projects</title>
-  <desc id="desc">Section header for Django-based projects</desc>
-
-  <defs>
-    <linearGradient id="django-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0f766e"/>
-      <stop offset="100%" stop-color="#14b8a6"/>
-    </linearGradient>
-  </defs>
-
-  <rect width="1200" height="120" rx="0" fill="#0a0e1a"/>
-
-  <!-- Accent line -->
-  <rect x="56" y="30" width="4" height="60" rx="2" fill="url(#django-grad)"/>
-
-  <!-- Django icon (simplified "d" shape) -->
-  <g transform="translate(80 35)">
-    <rect x="0" y="0" width="50" height="50" rx="10" fill="#0c1e2c" stroke="#14b8a6" stroke-width="1.5"/>
-    <text x="12" y="37" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="28" font-weight="700" fill="#14b8a6">D</text>
-  </g>
-
-  <!-- Section title -->
-  <g transform="translate(148 42)">
-    <text x="0" y="18" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="14" font-weight="500" fill="#14b8a6" letter-spacing="2">FRAMEWORK</text>
-    <text x="0" y="50" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="32" font-weight="700" fill="#e2e8f0">Django Projects</text>
-  </g>
-
-  <!-- Project count badge -->
-  <g transform="translate(1060 40)">
-    <rect x="0" y="0" width="80" height="40" rx="20" fill="#0c1e2c" stroke="#14b8a6" stroke-width="1"/>
-    <text x="40" y="26" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="14" font-weight="600" fill="#14b8a6" text-anchor="middle">3</text>
-  </g>
-
-  <!-- Bottom line -->
-  <line x1="56" y1="100" x2="1144" y2="100" stroke="#1e293b" stroke-width="1"/>
+<svg width="1280" height="92" viewBox="0 0 1280 92" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Django systems">
+<rect width="1280" height="92" rx="14" fill="#0B1220"/><rect x="10" y="10" width="1260" height="72" rx="10" stroke="#26364D"/>
+<path d="M40 46H206M1074 46H1240" stroke="#31435D" stroke-width="2"/><rect x="218" y="29" width="12" height="34" rx="2" fill="#22C55E"/><text x="254" y="55" fill="#F4F8FF" font-family="JetBrains Mono, monospace" font-size="22" font-weight="700" letter-spacing="1.2">DJANGO / PRODUCT SYSTEMS</text><text x="1050" y="55" fill="#6EE7B7" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="end" letter-spacing="1.5">01 — SERVER</text>
 </svg>

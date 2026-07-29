@@ -1,4 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 36" width="120" height="36" role="img" aria-label="Django">
-  <rect width="120" height="36" rx="8" fill="#0c1e2c" stroke="#14b8a6" stroke-width="1"/>
-  <text x="60" y="23" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#14b8a6" text-anchor="middle">Django</text>
-</svg>
+<svg width="158" height="38" viewBox="0 0 158 38" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Django"><rect width="158" height="38" rx="7" fill="#0E201B"/><rect x="1" y="1" width="156" height="36" rx="6" stroke="#276245"/><text x="17" y="24" fill="#8DE6BA" font-family="JetBrains Mono,monospace" font-size="12" font-weight="700">DJANGO</text><path d="M117 11v16m6-11v11m6-16v16" stroke="#8DE6BA" stroke-width="2"/></svg>

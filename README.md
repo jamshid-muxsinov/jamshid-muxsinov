@@ -1,294 +1,137 @@
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="Backend Python Developer Portfolio — Django, FastAPI, aiogram">
+  <img src="assets/readme/hero.svg" alt="Jamshid Muxsinov — Python Backend Engineer" width="100%" />
 </p>
 
----
-
-## About Me
-
-Backend Python developer with 2+ years of experience building production-ready systems. I design REST APIs, real-time applications, Telegram bots, and full-stack solutions with **Django**, **FastAPI**, and **aiogram**. Comfortable with PostgreSQL, Redis, Celery, Docker, WebSockets, and deployment pipelines.
-
----
+<table>
+  <tr>
+    <td width="56%" valign="top">
+      <h3>About Me</h3>
+      <p>
+        Я — <b>Jamshid Muxsinov</b>, Python backend-инженер. Проектирую надёжные веб-сервисы, автоматизацию и продукты, где важны чистая доменная логика, real-time сценарии и управляемая инфраструктура.
+      </p>
+      <p>
+        От логистических кабинетов и document-collaboration до AI-генерации и Telegram-ботов — превращаю сложные процессы в понятные системы.
+      </p>
+      <sub><code>FOCUS → BACKEND ARCHITECTURE · ASYNC FLOWS · PRODUCT DELIVERY</code></sub>
+    </td>
+    <td width="44%" valign="top">
+      <h3>Tech Stack</h3>
+      <p>
+        <img src="assets/readme/badge-python.svg" alt="Python" height="38" />
+        <img src="assets/readme/badge-django.svg" alt="Django" height="38" />
+      </p>
+      <p>
+        <img src="assets/readme/badge-fastapi.svg" alt="FastAPI" height="38" />
+        <img src="assets/readme/badge-aiogram.svg" alt="Aiogram" height="38" />
+      </p>
+      <p>
+        <img src="assets/readme/badge-postgresql.svg" alt="PostgreSQL" height="38" />
+        <img src="assets/readme/badge-redis.svg" alt="Redis" height="38" />
+        <img src="assets/readme/badge-docker.svg" alt="Docker" height="38" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <img src="./assets/readme/section-django.svg" width="100%" alt="Django Projects section header">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=jamshid-muxsinov&amp;show_icons=true&amp;theme=dark&amp;hide_border=true" alt="GitHub statistics for jamshid-muxsinov" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jamshid-muxsinov&amp;layout=compact&amp;theme=dark&amp;hide_border=true" alt="Top languages used by jamshid-muxsinov" />
 </p>
 
-### DocWeave — Markdown Document Platform
-
-A lightweight Django Markdown document platform with real-time collaboration foundations. CRUD documents, sharing with roles (owner/editor/viewer), Markdown rendering with sanitization, version history, image uploads, and WebSocket-based presence/typing/draft sync.
-
-<p align="center">
-  <img src="./assets/readme/badge-django.svg" alt="Django">
-  <img src="./assets/readme/badge-postgresql.svg" alt="PostgreSQL">
-  <img src="./assets/readme/badge-redis.svg" alt="Redis">
-  <img src="./assets/readme/badge-channels.svg" alt="Channels">
-  <img src="./assets/readme/badge-docker.svg" alt="Docker">
-</p>
-
-**Key features:**
-- Auth system with registration/login
-- Document dashboard with CRUD, search, and filtering
-- Sharing management with role-based access (owner/editor/viewer)
-- Version history with restore and export (.md/.html)
-- WebSocket `/ws/docs/<document_id>/` — real-time presence, typing indicators, draft sync
-- Markdown sanitization (bleach), image uploads, live preview
-- 97 Django tests
-
----
-
-### Logistics Tracking (kurs) — Full-Stack Cargo System
-
-A logistics/cargo tracking system with Django web app, public site (blog), admin panel, Telegram bot for cargo tracking, WebSocket consumers for real-time updates, Celery for background tasks, and Google Sheets integration.
-
-<p align="center">
-  <img src="./assets/readme/badge-django.svg" alt="Django">
-  <img src="./assets/readme/badge-drf.svg" alt="DRF">
-  <img src="./assets/readme/badge-postgresql.svg" alt="PostgreSQL">
-  <img src="./assets/readme/badge-redis.svg" alt="Redis">
-  <img src="./assets/readme/badge-celery.svg" alt="Celery">
-  <img src="./assets/readme/badge-channels.svg" alt="Channels">
-  <img src="./assets/readme/badge-docker.svg" alt="Docker">
-</p>
-
-**Key features:**
-- Django + DRF backend with Product, StaffProfile, InviteCode models
-- Public blog site
-- `bot_tracking.py` — aiogram Telegram bot for cargo status tracking
-- WebSocket consumers for real-time status updates
-- Celery + django-celery-beat for background tasks
-- Google Sheets integration (gspread), Excel export (openpyxl/pandas)
-- Docker + Nginx deployment
-
----
-
-### Burgut Logistics (sa_kurs) — Defense Version
-
-A logistics and cargo delivery management system with public site, admin panel, Telegram bot, delivery calculator, cargo tracking, Google Forms webhooks, and Excel export. Includes i18n (Russian, Uzbek, English).
-
-<p align="center">
-  <img src="./assets/readme/badge-django.svg" alt="Django">
-  <img src="./assets/readme/badge-drf.svg" alt="DRF">
-  <img src="./assets/readme/badge-postgresql.svg" alt="PostgreSQL">
-  <img src="./assets/readme/badge-redis.svg" alt="Redis">
-  <img src="./assets/readme/badge-celery.svg" alt="Celery">
-  <img src="./assets/readme/badge-channels.svg" alt="Channels">
-  <img src="./assets/readme/badge-docker.svg" alt="Docker">
-</p>
-
-**Key features:**
-- Django + DRF with Product, StaffProfile, InviteCode, Cargo models
-- Delivery calculator (avia, auto, rail, sea)
-- Google Forms webhook integration
-- Telegram bot for tracking
-- i18n: Russian, Uzbek, English
-- Excel export with openpyxl/pandas
-
----
-
-<p align="center">
-  <img src="./assets/readme/section-fastapi.svg" width="100%" alt="FastAPI Projects section header">
-</p>
-
-### AutoWash Pass — Car Wash Subscription System
-
-Full-stack car wash subscription system with FastAPI backend, Kotlin Jetpack Compose Android client + terminal kiosk app, and Astro admin dashboard. Covers user registration, subscription plans, QR code generation, terminal scanning, wash session timer, payments, and ratings.
-
-<p align="center">
-  <img src="./assets/readme/badge-fastapi.svg" alt="FastAPI">
-  <img src="./assets/readme/badge-sqlalchemy.svg" alt="SQLAlchemy">
-  <img src="./assets/readme/badge-alembic.svg" alt="Alembic">
-  <img src="./assets/readme/badge-postgresql.svg" alt="PostgreSQL">
-  <img src="./assets/readme/badge-firebase.svg" alt="Firebase">
-</p>
-
-**Key features:**
-- API routers: `/auth`, `/users`, `/plans`, `/subscriptions`, `/payments`, `/sessions`, `/terminal`, `/car-washes`, `/devices`
-- QR code generation and terminal scanning
-- Wash session timer with real-time status
-- Firebase push notifications
-- APScheduler for background jobs, SSE for real-time updates
-- PyJWT + bcrypt auth
-- 81 pytest tests
-
----
-
-### WeConstruct CRM — Construction Company CRM
-
-A construction company CRM with two apps: admin panel (Kanban board, project management) and public website (shop). Bilingual (ru/uz), with caching, rate limiting, CSRF protection, and Google Sheets integration.
-
-<p align="center">
-  <img src="./assets/readme/badge-fastapi.svg" alt="FastAPI">
-  <img src="./assets/readme/badge-sqlalchemy.svg" alt="SQLAlchemy">
-  <img src="./assets/readme/badge-alembic.svg" alt="Alembic">
-  <img src="./assets/readme/badge-postgresql.svg" alt="PostgreSQL">
-  <img src="./assets/readme/badge-redis.svg" alt="Redis">
-  <img src="./assets/readme/badge-docker.svg" alt="Docker">
-</p>
-
-**Key features:**
-- Admin app: Kanban board, CRUD, protected routes, locale routing (`/{locale}/...`)
-- Site app: public website with shop, sitemap.xml, robots.txt
-- HTMX integration for interactive UI
-- CacheMiddleware + RateLimitMiddleware
-- Webhooks, API routes, SSE
-- starlette-wtf (CSRF), fastapi-pagination
-- Google Sheets integration (gspread)
-- Docker + Nginx deployment
-
----
-
-### AI Photo Studio — AI Marketing Photo Generator
-
-An AI-powered marketing photo generator for clothing. Upload a garment photo, choose background/angle, and AI generates professional model photos for marketplaces. React 18 + TypeScript frontend with FastAPI backend.
-
-<p align="center">
-  <img src="./assets/readme/badge-fastapi.svg" alt="FastAPI">
-  <img src="./assets/readme/badge-sqlalchemy.svg" alt="SQLAlchemy">
-  <img src="./assets/readme/badge-alembic.svg" alt="Alembic">
-  <img src="./assets/readme/badge-postgresql.svg" alt="PostgreSQL">
-  <img src="./assets/readme/badge-redis.svg" alt="Redis">
-  <img src="./assets/readme/badge-minio.svg" alt="MinIO">
-  <img src="./assets/readme/badge-docker.svg" alt="Docker">
-</p>
-
-**Key features:**
-- JWT auth: `POST /api/auth/register`, `/api/auth/login`
-- Generation pipeline: `POST /api/generations/` (upload + params)
-- Gallery: `GET /api/generations/`, `GET /api/generations/{id}`
-- WebSocket `/ws/status/{user_id}` — real-time generation status
-- HuggingFace Inference API (FLUX.1-schnell), Google Gemini
-- MinIO (S3) for object storage, boto3, Pillow
-- React 18 + TypeScript + Tailwind CSS + Vite frontend
-- Zustand state management, Axios
-
----
-
-### Logistics Chat Simulator (v1) — Educational Platform
-
-An educational platform where students practice logistics scenarios via simulated chat conversations with AI characters (driver, client, warehouse worker). Teachers can monitor and intervene.
-
-<p align="center">
-  <img src="./assets/readme/badge-fastapi.svg" alt="FastAPI">
-  <img src="./assets/readme/badge-sqlalchemy.svg" alt="SQLAlchemy">
-  <img src="./assets/readme/badge-socketio.svg" alt="Socket.IO">
-  <img src="./assets/readme/badge-alembic.svg" alt="Alembic">
-</p>
-
-**Key features:**
-- Routers: auth, characters, chats, messages, cases, students, teachers, templates, groups, takeover, upload
-- Socket.IO events: `send:message`, `join:chat`, `typing:start/stop`, `student:need_help`, `teacher:resolve_help`
-- Case system with branching decisions and scoring
-- Teacher takeover mode
-- Student groups, profiles, progress tracking
-- Markdown case import from files
-- structlog, slowapi (rate limiting)
-
----
-
-### Cargo Tracker Admin Panel & Bot
-
-A logistics cargo tracking system with a FastAPI admin panel and Telegram bot. Clients track packages by phone number; admins manage clients, warehouses, trucks, products, status templates via web UI.
-
-<p align="center">
-  <img src="./assets/readme/badge-fastapi.svg" alt="FastAPI">
-  <img src="./assets/readme/badge-aiogram.svg" alt="aiogram">
-  <img src="./assets/readme/badge-sqlalchemy.svg" alt="SQLAlchemy">
-  <img src="./assets/readme/badge-alembic.svg" alt="Alembic">
-  <img src="./assets/readme/badge-postgresql.svg" alt="PostgreSQL">
-</p>
-
-**Key features:**
-- Telegram bot: `/start`, my cargo list, phone binding, status history (ru/uz bilingual)
-- Admin panel at `/admin/*`: client, warehouse, truck, product, status template management
-- Models: Client, Warehouse, Truck, Product, StatusTemplate, StatusUpdate, User, AdminUser, InviteCode
-- FSM states for phone number input
-- aiogram SessionMiddleware, bcrypt
-
----
-
-### Consultation Forwarder — Website to Telegram
-
-A minimal FastAPI endpoint that receives form data (name, phone, message) from a website and forwards it as a formatted Telegram message to configured recipients. Includes a claim-leaderboard button handler.
-
-<p align="center">
-  <img src="./assets/readme/badge-fastapi.svg" alt="FastAPI">
-  <img src="./assets/readme/badge-aiogram.svg" alt="aiogram">
-</p>
-
-**Key features:**
-- `POST /api_new_request` — receive consultation form, forward to Telegram
-- `claim_lead` callback — inline button for staff to claim a lead
-- Static file serving
-- Minimal: FastAPI + aiogram in one file, no database
-
----
-
-### FastAPI To-Do API — Study Project
-
-A small FastAPI To-Do CRUD study project. In-memory "database" (dict), 7 endpoints for task management.
-
-<p align="center">
-  <img src="./assets/readme/badge-fastapi.svg" alt="FastAPI">
-</p>
-
-**Key features:**
-- `POST /tasks` — create
-- `GET /tasks` — list all
-- `GET /tasks/{id}` — get one
-- `PUT /tasks/{id}` — update
-- `DELETE /tasks/{id}` — delete
-- `POST /tasks/{id}/complete` — mark done
-- `GET /tasks/pending` — pending tasks
-
----
-
-<p align="center">
-  <img src="./assets/readme/section-aiogram.svg" width="100%" alt="Telegram Bots section header">
-</p>
-
-### Telegram Video Downloader Bot
-
-Accepts video URLs, downloads via yt-dlp, sends video files back through Telegram. Supports YouTube, Instagram, TikTok, Twitter/X, and 1000+ sites.
-
-<p align="center">
-  <img src="./assets/readme/badge-aiogram.svg" alt="aiogram">
-</p>
-
-**Key features:**
-- `/start`, `/help` commands
-- URL detection and video download via yt-dlp
-- Progress status updates
-- Error handling for large files, private videos, anti-bot, timeouts
-- Cookie/proxy support for YouTube
-- Configurable JS runtime (node/deno)
-
----
-
-## Tech Stack Summary
-
-| Category | Technologies |
-|----------|-------------|
-| **Languages** | Python 3.10+, SQL |
-| **Frameworks** | Django 4.x, Django REST Framework, FastAPI, aiogram 3 |
-| **Databases** | PostgreSQL, SQLite, Redis |
-| **ORMs** | Django ORM, SQLAlchemy (async), Alembic |
-| **Async** | asyncio, WebSockets, Socket.IO, SSE, Celery |
-| **Infrastructure** | Docker, Nginx, Gunicorn, Daphne |
-| **Integrations** | Telegram Bot API, Firebase, Google Sheets, MinIO (S3), HuggingFace |
-| **Testing** | pytest, Django TestCase |
-
----
-
-## Contacts
-
-I am open for freelance projects and full-time positions. Feel free to contact me:
-
-- **Telegram:** [@tasheet](https://t.me/tasheet)
-- **Email:** jmuxsinovjj@gmail.com
-
----
-
-<p align="center">
-  <sub>Backend Python Developer Portfolio — Built with Django, FastAPI & aiogram</sub>
-</p>
+<img src="assets/readme/section-django.svg" alt="Django product systems" width="100%" />
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><b>Burgut Logistics</b></h3>
+      <p>Полноценная система управления логистикой: публичная витрина, внутренний кабинет и трекинг грузов.</p>
+      <p><img src="assets/readme/badge-python.svg" alt="Python" height="30" /> <img src="assets/readme/badge-django.svg" alt="Django" height="30" /> <img src="assets/readme/badge-postgresql.svg" alt="PostgreSQL" height="30" /> <img src="assets/readme/badge-redis.svg" alt="Redis" height="30" /></p>
+      <ul>
+        <li>Расчёт тарифов для avia, auto, rail и sea</li>
+        <li>Роли, приглашения, Excel-экспорт и вебхуки</li>
+        <li>Уведомления и отслеживание через Telegram</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3><b>DocWeave</b></h3>
+      <p>Local-first платформа для Markdown-документов с безопасным совместным доступом и живой синхронизацией черновиков.</p>
+      <p><img src="assets/readme/badge-django.svg" alt="Django" height="30" /> <img src="assets/readme/badge-postgresql.svg" alt="PostgreSQL" height="30" /> <img src="assets/readme/badge-redis.svg" alt="Redis" height="30" /> <img src="assets/readme/badge-docker.svg" alt="Docker" height="30" /></p>
+      <ul>
+        <li>Роли owner / editor / viewer и snapshots версий</li>
+        <li>WebSocket-комнаты, presence и typing events</li>
+        <li>Docker Compose для воспроизводимого окружения</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<img src="assets/readme/section-fastapi.svg" alt="FastAPI async services" width="100%" />
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><b>Sarmat</b></h3>
+      <p>AI-сервис для генерации маркетинговых фотографий одежды: от постановки задачи до выдачи готовой галереи.</p>
+      <p><img src="assets/readme/badge-fastapi.svg" alt="FastAPI" height="30" /> <img src="assets/readme/badge-postgresql.svg" alt="PostgreSQL" height="30" /> <img src="assets/readme/badge-redis.svg" alt="Redis" height="30" /> <img src="assets/readme/badge-docker.svg" alt="Docker" height="30" /></p>
+      <ul>
+        <li>Интеграции HuggingFace FLUX и Google Gemini</li>
+        <li>JWT, история генераций и S3-совместимое хранилище</li>
+        <li>WebSocket-статусы для real-time интерфейса</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3><b>AutoWash Pass</b></h3>
+      <p>Backend для автомоек и абонементов, объединяющий клиентское Android-приложение и терминалы на точках обслуживания.</p>
+      <p><img src="assets/readme/badge-fastapi.svg" alt="FastAPI" height="30" /> <img src="assets/readme/badge-postgresql.svg" alt="PostgreSQL" height="30" /> <img src="assets/readme/badge-docker.svg" alt="Docker" height="30" /></p>
+      <ul>
+        <li>API для абонементов, терминалов и сессий мойки</li>
+        <li>Alembic-миграции и CORS-ready сервисный слой</li>
+        <li>Две нативные Android-роли: client и terminal</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<img src="assets/readme/section-aiogram.svg" alt="Aiogram Telegram automation" width="100%" />
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><b>Logistics Tracking Bot</b></h3>
+      <p>Интегрированный Telegram-канал для логистической системы: уведомления, статусы и быстрый доступ к трекингу.</p>
+      <p><img src="assets/readme/badge-python.svg" alt="Python" height="30" /> <img src="assets/readme/badge-aiogram.svg" alt="Aiogram" height="30" /> <img src="assets/readme/badge-django.svg" alt="Django" height="30" /></p>
+      <ul>
+        <li>Бот встроен в операционные сценарии продукта</li>
+        <li>Автоматические статусы и сообщения клиентам</li>
+        <li>Единая логика с Django-приложением</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3><b>Telegram Video Downloader</b></h3>
+      <p>Практичный бот, который принимает ссылку, скачивает видео через yt-dlp и возвращает файл в Telegram.</p>
+      <p><img src="assets/readme/badge-python.svg" alt="Python" height="30" /> <img src="assets/readme/badge-aiogram.svg" alt="Aiogram" height="30" /></p>
+      <ul>
+        <li>Маршрутизация команд и входящих ссылок</li>
+        <li>yt-dlp, ffmpeg и настраиваемый proxy</li>
+        <li>Контроль лимита Bot API и понятные ошибки</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://t.me/jamshid_muxsinov"><img src="assets/readme/icon-telegram.svg" alt="Telegram" width="48" /></a><br />
+      <sub><b>TELEGRAM</b> · @jamshid_muxsinov</sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="mailto:jamshid-muxsinov@users.noreply.github.com"><img src="assets/readme/icon-email.svg" alt="Email" width="48" /></a><br />
+      <sub><b>EMAIL</b> · jamshid-muxsinov@users.noreply.github.com</sub>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><sub>DESIGNED AS A DARK-TECH SYSTEMS LOG · OPEN TO BACKEND &amp; AUTOMATION WORK</sub></p>

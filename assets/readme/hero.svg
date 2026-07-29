@@ -1,181 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="1200" height="380" viewBox="0 0 1200 380"
-     role="img" aria-labelledby="title desc">
-  <title id="title">Backend Python Developer Portfolio</title>
-  <desc id="desc">Portfolio hero banner showcasing Django, FastAPI, and aiogram backend projects</desc>
-
-  <defs>
-    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0e1a"/>
-      <stop offset="50%" stop-color="#0f1629"/>
-      <stop offset="100%" stop-color="#0a0e1a"/>
-    </linearGradient>
-    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="100%" stop-color="#8b5cf6"/>
-    </linearGradient>
-    <linearGradient id="glow-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-
-  <!-- Background -->
-  <rect width="1200" height="380" rx="0" fill="url(#bg-grad)"/>
-
-  <!-- Subtle grid pattern -->
-  <g opacity="0.04" stroke="#3b82f6" stroke-width="0.5">
-    <line x1="0" y1="60" x2="1200" y2="60"/>
-    <line x1="0" y1="120" x2="1200" y2="120"/>
-    <line x1="0" y1="180" x2="1200" y2="180"/>
-    <line x1="0" y1="240" x2="1200" y2="240"/>
-    <line x1="0" y1="300" x2="1200" y2="300"/>
-    <line x1="200" y1="0" x2="200" y2="380"/>
-    <line x1="400" y1="0" x2="400" y2="380"/>
-    <line x1="600" y1="0" x2="600" y2="380"/>
-    <line x1="800" y1="0" x2="800" y2="380"/>
-    <line x1="1000" y1="0" x2="1000" y2="380"/>
+<svg width="1280" height="330" viewBox="0 0 1280 330" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Jamshid Muxsinov — Python backend engineer</title><desc id="desc">Dark technical portfolio header with a systems diagram.</desc>
+  <rect width="1280" height="330" rx="18" fill="#070B12"/>
+  <rect x="12" y="12" width="1256" height="306" rx="12" fill="#0B1220" stroke="#26364D"/>
+  <path d="M42 78H228M42 106H148M42 248H190M1038 78H1238M1108 106H1238M1086 248H1238" stroke="#223047" stroke-width="2"/>
+  <path d="M42 78V248M1238 78V248" stroke="#1C2A40" stroke-width="1" stroke-dasharray="4 8"/>
+  <path d="M270 52V278M302 52V278M978 52V278M1010 52V278" stroke="#142039" stroke-width="1"/>
+  <circle cx="270" cy="52" r="4" fill="#39C5FF"/><circle cx="1010" cy="278" r="4" fill="#39C5FF"/>
+  <g font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace">
+    <text x="72" y="62" fill="#74D6FF" font-size="11" letter-spacing="2">PORTFOLIO / 2026</text>
+    <text x="72" y="151" fill="#F4F8FF" font-size="44" font-weight="700" letter-spacing="-1.5">JAMSHID MUXSINOV</text>
+    <text x="75" y="188" fill="#AAB9CF" font-size="16" letter-spacing=".8">PYTHON BACKEND ENGINEER</text>
+    <text x="75" y="220" fill="#62718B" font-size="12" letter-spacing="1.4">DJANGO  /  FASTAPI  /  AIROGRAM</text>
+    <text x="1047" y="62" fill="#62718B" font-size="10" letter-spacing="1.5">SYSTEM STATUS</text>
+    <text x="1047" y="87" fill="#6EE7B7" font-size="12" letter-spacing="1.2">● AVAILABLE</text>
   </g>
-
-  <!-- Glow accent top -->
-  <rect x="0" y="0" width="1200" height="120" fill="url(#glow-grad)" opacity="0.5"/>
-
-  <!-- Left accent bar -->
-  <rect x="56" y="60" width="4" height="80" rx="2" fill="url(#accent-grad)"/>
-
-  <!-- Title block -->
-  <g transform="translate(80 60)">
-    <!-- Eyebrow -->
-    <text x="0" y="20" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="14" font-weight="500" fill="#3b82f6" letter-spacing="3" text-transform="uppercase">
-      BACKEND PYTHON DEVELOPER
-    </text>
-
-    <!-- Main title -->
-    <text x="0" y="68" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="44" font-weight="700" fill="#e2e8f0">
-      Portfolio
-    </text>
-
-    <!-- Subtitle -->
-    <text x="0" y="100" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="18" font-weight="400" fill="#94a3b8">
-      Django  |  FastAPI  |  aiogram  |  PostgreSQL  |  Redis
-    </text>
+  <g stroke="#39C5FF" stroke-width="1.5" opacity=".9">
+    <path d="M885 143H1010L1050 183H1158"/><path d="M885 183H953L990 220H1086"/><path d="M885 223H932L962 253H1034"/>
+    <circle cx="885" cy="143" r="6" fill="#0B1220"/><circle cx="1158" cy="183" r="6" fill="#0B1220"/><circle cx="1086" cy="220" r="6" fill="#0B1220"/><circle cx="1034" cy="253" r="6" fill="#0B1220"/>
   </g>
-
-  <!-- Right side: tech stack visual -->
-  <g transform="translate(720 50)">
-    <!-- Terminal-style code block -->
-    <rect x="0" y="0" width="420" height="160" rx="12" fill="#111827" opacity="0.8"
-          stroke="#1e293b" stroke-width="1"/>
-
-    <!-- Terminal dots -->
-    <circle cx="24" cy="22" r="5" fill="#ef4444" opacity="0.8"/>
-    <circle cx="42" cy="22" r="5" fill="#eab308" opacity="0.8"/>
-    <circle cx="60" cy="22" r="5" fill="#22c55e" opacity="0.8"/>
-
-    <!-- Terminal title -->
-    <text x="80" y="26" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
-          font-size="11" fill="#64748b">portfolio~</text>
-
-    <!-- Code lines -->
-    <text x="20" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
-          font-size="13" fill="#64748b">$</text>
-    <text x="36" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
-          font-size="13" fill="#3b82f6">python</text>
-    <text x="90" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
-          font-size="13" fill="#94a3b8">manage.py runserver</text>
-
-    <text x="20" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
-          font-size="13" fill="#64748b">$</text>
-    <text x="36" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
-          font-size="13" fill="#8b5cf6">uvicorn</text>
-    <text x="104" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
-          font-size="13" fill="#94a3b8">main:app --reload</text>
-
-    <text x="20" y="100" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
-          font-size="13" fill="#64748b">$</text>
-    <text x="36" y="100" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
-          font-size="13" fill="#10b981">python</text>
-    <text x="86" y="100" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
-          font-size="13" fill="#94a3b8">bot.py</text>
-
-    <!-- Stats -->
-    <text x="20" y="135" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
-          font-size="12" fill="#475569">projects: 11</text>
-    <text x="180" y="135" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
-          font-size="12" fill="#475569">stacks: 3</text>
-    <text x="310" y="135" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
-          font-size="12" fill="#475569">exp: 2y+</text>
-  </g>
-
-  <!-- Tech badges row -->
-  <g transform="translate(80 200)">
-    <!-- Django badge -->
-    <rect x="0" y="0" width="110" height="36" rx="8" fill="#0c1e2c" stroke="#0f766e" stroke-width="1"/>
-    <text x="14" y="23" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="13" font-weight="600" fill="#14b8a6">Django</text>
-
-    <!-- FastAPI badge -->
-    <rect x="124" y="0" width="110" height="36" rx="8" fill="#0c1e2c" stroke="#0ea5e9" stroke-width="1"/>
-    <text x="138" y="23" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="13" font-weight="600" fill="#38bdf8">FastAPI</text>
-
-    <!-- aiogram badge -->
-    <rect x="248" y="0" width="110" height="36" rx="8" fill="#0c1e2c" stroke="#6366f1" stroke-width="1"/>
-    <text x="262" y="23" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="13" font-weight="600" fill="#818cf8">aiogram</text>
-
-    <!-- PostgreSQL badge -->
-    <rect x="372" y="0" width="130" height="36" rx="8" fill="#0c1e2c" stroke="#3b82f6" stroke-width="1"/>
-    <text x="386" y="23" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="13" font-weight="600" fill="#60a5fa">PostgreSQL</text>
-
-    <!-- Redis badge -->
-    <rect x="516" y="0" width="96" height="36" rx="8" fill="#0c1e2c" stroke="#ef4444" stroke-width="1"/>
-    <text x="530" y="23" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="13" font-weight="600" fill="#f87171">Redis</text>
-
-    <!-- Celery badge -->
-    <rect x="626" y="0" width="96" height="36" rx="8" fill="#0c1e2c" stroke="#84cc16" stroke-width="1"/>
-    <text x="640" y="23" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="13" font-weight="600" fill="#a3e635">Celery</text>
-
-    <!-- Docker badge -->
-    <rect x="736" y="0" width="96" height="36" rx="8" fill="#0c1e2c" stroke="#3b82f6" stroke-width="1"/>
-    <text x="750" y="23" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="13" font-weight="600" fill="#60a5fa">Docker</text>
-  </g>
-
-  <!-- Bottom separator -->
-  <line x1="56" y1="260" x2="1144" y2="260" stroke="#1e293b" stroke-width="1"/>
-
-  <!-- Stats row -->
-  <g transform="translate(80 290)">
-    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="36" font-weight="700" fill="#e2e8f0">11</text>
-    <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="13" fill="#64748b">Backend Projects</text>
-
-    <text x="200" y="0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="36" font-weight="700" fill="#3b82f6">3</text>
-    <text x="200" y="24" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="13" fill="#64748b">Core Frameworks</text>
-
-    <text x="400" y="0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="36" font-weight="700" fill="#8b5cf6">5</text>
-    <text x="400" y="24" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="13" fill="#64748b">Telegram Bots</text>
-
-    <text x="600" y="0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="36" font-weight="700" fill="#10b981">2+</text>
-    <text x="600" y="24" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-          font-size="13" fill="#64748b">Years Experience</text>
-  </g>
-
-  <!-- Decorative terminal cursor -->
-  <g transform="translate(1100 340)">
-    <rect x="0" y="0" width="2" height="16" fill="#3b82f6" opacity="0.6"/>
-  </g>
+  <rect x="72" y="260" width="214" height="28" rx="14" fill="#102137" stroke="#284967"/>
+  <text x="87" y="279" fill="#9DDAFF" font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="1">BUILDING RELIABLE SYSTEMS</text>
 </svg>
