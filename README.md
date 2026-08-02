@@ -160,4 +160,3 @@
   </tr>
 </table>
 
-<p align="center"><sub>DESIGNED AS A DARK-TECH SYSTEMS LOG · OPEN TO BACKEND &amp; AUTOMATION WORK</sub></p>
