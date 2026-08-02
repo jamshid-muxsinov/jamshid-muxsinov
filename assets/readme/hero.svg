@@ -1,23 +1,54 @@
-<svg width="1280" height="330" viewBox="0 0 1280 330" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Jamshid Muxsinov — Python backend engineer</title><desc id="desc">Dark technical portfolio header with a systems diagram.</desc>
-  <rect width="1280" height="330" rx="18" fill="#070B12"/>
-  <rect x="12" y="12" width="1256" height="306" rx="12" fill="#0B1220" stroke="#26364D"/>
-  <path d="M42 78H228M42 106H148M42 248H190M1038 78H1238M1108 106H1238M1086 248H1238" stroke="#223047" stroke-width="2"/>
-  <path d="M42 78V248M1238 78V248" stroke="#1C2A40" stroke-width="1" stroke-dasharray="4 8"/>
-  <path d="M270 52V278M302 52V278M978 52V278M1010 52V278" stroke="#142039" stroke-width="1"/>
-  <circle cx="270" cy="52" r="4" fill="#39C5FF"/><circle cx="1010" cy="278" r="4" fill="#39C5FF"/>
-  <g font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace">
-    <text x="72" y="62" fill="#74D6FF" font-size="11" letter-spacing="2">PORTFOLIO / 2026</text>
-    <text x="72" y="151" fill="#F4F8FF" font-size="44" font-weight="700" letter-spacing="-1.5">JAMSHID MUXSINOV</text>
-    <text x="75" y="188" fill="#AAB9CF" font-size="16" letter-spacing=".8">PYTHON BACKEND ENGINEER</text>
-    <text x="75" y="220" fill="#62718B" font-size="12" letter-spacing="1.4">DJANGO  /  FASTAPI  /  AIROGRAM</text>
-    <text x="1047" y="62" fill="#62718B" font-size="10" letter-spacing="1.5">SYSTEM STATUS</text>
-    <text x="1047" y="87" fill="#6EE7B7" font-size="12" letter-spacing="1.2">● AVAILABLE</text>
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Jamshid Muxsinov — Python Backend Engineer</title>
+  <desc id="desc">Portfolio header in risograph zine style: bold name with color misregistration on kraft paper.</desc>
+
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="gray"/>
+      <feBlend in="SourceGraphic" in2="gray" mode="multiply"/>
+    </filter>
+  </defs>
+
+  <!-- kraft paper background -->
+  <rect width="1280" height="320" rx="0" fill="#F4E8C1"/>
+
+  <!-- grain overlay -->
+  <rect width="1280" height="320" fill="#F4E8C1" filter="url(#grain)" opacity="0.4"/>
+
+  <!-- red misregistration shadow — offset 4px right, 3px down -->
+  <text x="96" y="165" fill="#E8453C" opacity="0.7" font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="88" letter-spacing="-2" transform="translate(4 3)">JAMSHID</text>
+  <text x="96" y="245" fill="#E8453C" opacity="0.7" font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="88" letter-spacing="-2" transform="translate(4 3)">MUXSINOV</text>
+
+  <!-- main name — black -->
+  <text x="92" y="162" fill="#1A1A1A" font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="88" letter-spacing="-2">JAMSHID</text>
+  <text x="92" y="242" fill="#1A1A1A" font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="88" letter-spacing="-2">MUXSINOV</text>
+
+  <!-- title — blue, stamped feel -->
+  <rect x="92" y="260" width="420" height="36" fill="#2B4590" transform="rotate(-0.8 92 260)"/>
+  <text x="108" y="285" fill="#F4E8C1" font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="18" letter-spacing="4">PYTHON BACKEND ENGINEER</text>
+
+  <!-- right side: stack keywords, riso-style patches -->
+  <g transform="translate(780 60)">
+    <!-- red patch -->
+    <rect x="0" y="0" width="380" height="44" fill="#E8453C" opacity="0.85" transform="rotate(-0.5)"/>
+    <text x="18" y="30" fill="#F4E8C1" font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="20" letter-spacing="2">DJANGO · FASTAPI · AIOGRAM</text>
+
+    <!-- blue patch -->
+    <rect x="20" y="60" width="340" height="44" fill="#2B4590" opacity="0.85" transform="rotate(0.3 20 60)"/>
+    <text x="38" y="90" fill="#F4E8C1" font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="20" letter-spacing="2">POSTGRESQL · REDIS · DOCKER</text>
+
+    <!-- black patch -->
+    <rect x="0" y="120" width="300" height="44" fill="#1A1A1A" opacity="0.85" transform="rotate(-0.4 0 120)"/>
+    <text x="18" y="150" fill="#F4E8C1" font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="20" letter-spacing="2">APIS · WEBSocket · BOTS</text>
   </g>
-  <g stroke="#39C5FF" stroke-width="1.5" opacity=".9">
-    <path d="M885 143H1010L1050 183H1158"/><path d="M885 183H953L990 220H1086"/><path d="M885 223H932L962 253H1034"/>
-    <circle cx="885" cy="143" r="6" fill="#0B1220"/><circle cx="1158" cy="183" r="6" fill="#0B1220"/><circle cx="1086" cy="220" r="6" fill="#0B1220"/><circle cx="1034" cy="253" r="6" fill="#0B1220"/>
-  </g>
-  <rect x="72" y="260" width="214" height="28" rx="14" fill="#102137" stroke="#284967"/>
-  <text x="87" y="279" fill="#9DDAFF" font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="1">BUILDING RELIABLE SYSTEMS</text>
+
+  <!-- decorative dots — riso registration marks -->
+  <circle cx="60" cy="40" r="5" fill="#E8453C" opacity="0.5"/>
+  <circle cx="76" cy="40" r="5" fill="#2B4590" opacity="0.5"/>
+  <circle cx="60" cy="56" r="5" fill="#2B4590" opacity="0.5"/>
+  <circle cx="76" cy="56" r="5" fill="#E8453C" opacity="0.5"/>
+
+  <!-- bottom line -->
+  <line x1="92" y1="300" x2="500" y2="300" stroke="#1A1A1A" stroke-width="2" opacity="0.3"/>
 </svg>

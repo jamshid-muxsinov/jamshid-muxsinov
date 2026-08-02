@@ -1,4 +1,20 @@
-<svg width="1280" height="92" viewBox="0 0 1280 92" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aiogram systems">
-<rect width="1280" height="92" rx="14" fill="#0B1220"/><rect x="10" y="10" width="1260" height="72" rx="10" stroke="#26364D"/>
-<path d="M40 46H206M1074 46H1240" stroke="#31435D" stroke-width="2"/><rect x="218" y="29" width="12" height="34" rx="2" fill="#60A5FA"/><text x="254" y="55" fill="#F4F8FF" font-family="JetBrains Mono, monospace" font-size="22" font-weight="700" letter-spacing="1.2">AIOGRAM / TELEGRAM AUTOMATION</text><text x="1050" y="55" fill="#93C5FD" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="end" letter-spacing="1.5">03 — BOT</text>
+<svg width="1280" height="92" viewBox="0 0 1280 92" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aiogram Telegram automation">
+  <defs>
+    <filter id="grain-ai" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+      <feBlend in="SourceGraphic" in2="g" mode="multiply"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="92" fill="#F4E8C1"/>
+  <rect width="1280" height="92" fill="#F4E8C1" filter="url(#grain-ai)" opacity="0.3"/>
+
+  <!-- misregistration shadow -->
+  <rect x="28" y="16" width="560" height="58" fill="#1A1A1A" opacity="0.6" transform="translate(3 2) rotate(-0.2)"/>
+
+  <!-- main patch -->
+  <rect x="28" y="16" width="560" height="58" fill="#1A1A1A" transform="rotate(-0.2)"/>
+
+  <text x="48" y="55" fill="#F4E8C1" font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="32" letter-spacing="3">AIOGRAM / TELEGRAM AUTOMATION</text>
 </svg>

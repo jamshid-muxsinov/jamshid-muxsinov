@@ -1,1 +1,5 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Email"><rect x="2" y="2" width="44" height="44" rx="12" fill="#101827" stroke="#596B86"/><rect x="12" y="15" width="24" height="18" rx="3" stroke="#C7D5EA" stroke-width="1.5"/><path d="M13 17l11 9 11-9" stroke="#C7D5EA" stroke-width="1.5" stroke-linejoin="round"/></svg>
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Email">
+  <rect width="48" height="48" rx="4" fill="#E8453C"/>
+  <rect x="12" y="15" width="24" height="18" rx="2" stroke="#F4E8C1" stroke-width="2" fill="none"/>
+  <path d="M13 17l11 9 11-9" stroke="#F4E8C1" stroke-width="2" stroke-linejoin="round"/>
+</svg>

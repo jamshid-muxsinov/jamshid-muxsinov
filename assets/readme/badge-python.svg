@@ -1,1 +1,5 @@
-<svg width="158" height="38" viewBox="0 0 158 38" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Python"><rect width="158" height="38" rx="7" fill="#101B2C"/><rect x="1" y="1" width="156" height="36" rx="6" stroke="#2D4A70"/><path d="M17 10h7v6h-7zM20 22h7v6h-7z" stroke="#FFD343" stroke-width="2"/><text x="39" y="24" fill="#D7E9FF" font-family="JetBrains Mono,monospace" font-size="12" font-weight="700">PYTHON</text></svg>
+<svg width="158" height="38" viewBox="0 0 158 38" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Python">
+  <rect width="158" height="38" rx="2" fill="#F4E8C1"/>
+  <rect x="1" y="1" width="156" height="36" rx="1" stroke="#1A1A1A" stroke-width="2" stroke-dasharray="0"/>
+  <text x="80" y="26" fill="#1A1A1A" font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="16" letter-spacing="3" text-anchor="middle">PYTHON</text>
+</svg>

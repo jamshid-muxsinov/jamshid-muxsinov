@@ -1,1 +1,5 @@
-<svg width="158" height="38" viewBox="0 0 158 38" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Django"><rect width="158" height="38" rx="7" fill="#0E201B"/><rect x="1" y="1" width="156" height="36" rx="6" stroke="#276245"/><text x="17" y="24" fill="#8DE6BA" font-family="JetBrains Mono,monospace" font-size="12" font-weight="700">DJANGO</text><path d="M117 11v16m6-11v11m6-16v16" stroke="#8DE6BA" stroke-width="2"/></svg>
+<svg width="158" height="38" viewBox="0 0 158 38" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Django">
+  <rect width="158" height="38" rx="2" fill="#F4E8C1"/>
+  <rect x="1" y="1" width="156" height="36" rx="1" stroke="#E8453C" stroke-width="2"/>
+  <text x="80" y="26" fill="#E8453C" font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="16" letter-spacing="3" text-anchor="middle">DJANGO</text>
+</svg>
