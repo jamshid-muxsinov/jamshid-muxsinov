@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Send me the awkward part</title>
+  <desc id="desc">An acid-lime closing poster asking for manual, fragile processes split across screens.</desc>
+
+  <rect width="1200" height="330" rx="22" fill="#D9FF57"/>
+  <text x="55" y="75" fill="#191525" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-style="italic">send me the</text>
+  <text x="47" y="211" fill="#191525" font-family="Arial, Helvetica, sans-serif" font-size="128" font-weight="900" letter-spacing="0">AWKWARD PART</text>
+  <path d="M54 235C254 214 427 256 631 232C769 216 935 249 1133 226" fill="none" stroke="#FF6257" stroke-width="9" stroke-linecap="round"/>
+  <text x="58" y="294" fill="#191525" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800">MANUAL / FRAGILE / SPLIT ACROSS SCREENS / SOMEBODY OWNS THE STATE</text>
+</svg>

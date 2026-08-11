@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790" role="img" aria-labelledby="title desc">
+  <title id="title">Personal digital workbench</title>
+  <desc id="desc">A tiered typographic field of Wearframe, Generator Store, AutoWash Pass, Exam Forge, DocWeave, INN Report, and FlowMusic.</desc>
+
+  <rect width="1200" height="790" rx="22" fill="#191525"/>
+  <path d="M116 0V790" stroke="#3048D8" stroke-width="16"/>
+
+  <g transform="translate(70 710) rotate(-90)">
+    <text fill="#D9FF57" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="900" letter-spacing="-3">WEARFRAME</text>
+  </g>
+
+  <g transform="translate(184 56)">
+    <text x="0" y="92" fill="#F5F2FF" font-family="Arial, Helvetica, sans-serif" font-size="90" font-weight="900" letter-spacing="-6">GENERATOR</text>
+    <rect x="470" y="108" width="386" height="84" fill="#FF6257" transform="rotate(-1 470 108)"/>
+    <text x="494" y="177" fill="#191525" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="900" letter-spacing="-4">STORE</text>
+  </g>
+
+  <g transform="translate(824 286)">
+    <text x="0" y="51" fill="#D9FF57" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="900" letter-spacing="-2">EXAM FORGE</text>
+  </g>
+
+  <g transform="translate(190 365)">
+    <text x="0" y="40" fill="#F5F2FF" font-family="Georgia, 'Times New Roman', serif" font-size="51" font-style="italic">DocWeave</text>
+  </g>
+
+  <g transform="translate(190 468)">
+    <text x="0" y="78" fill="#F5F2FF" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="900" letter-spacing="-4">AUTOWASH PASS</text>
+  </g>
+
+  <g transform="translate(824 634)">
+    <text x="0" y="0" fill="#D9FF57" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900" letter-spacing="-2">INN</text>
+    <text x="82" y="0" fill="#F5F2FF" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900" letter-spacing="-2">REPORT</text>
+  </g>
+
+  <g transform="translate(190 704)">
+    <text x="0" y="0" fill="#F5F2FF" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="800">FLOWMUSIC</text>
+  </g>
+</svg>
