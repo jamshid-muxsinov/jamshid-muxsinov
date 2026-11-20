@@ -4,7 +4,7 @@ Public activity for **jamshid-muxsinov**, updated **2026-11-20 UTC**.
 
 | Metric | Value | Scope |
 | --- | ---: | --- |
-| Stars earned | 0 | Stars on all public repositories owned by this account. |
+| Stars earned | 6 | Stars on all public repositories owned by this account. |
 | Public commits | 4 | Indexed commits attributed to the account on public default branches, by author date from 2026-01-01 through 2026-11-20. |
 | Pull requests | 0 | All public pull requests authored by the account, across all states. |
 | Issues | 0 | All public issues opened by the account, across all states. |
