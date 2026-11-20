@@ -1,4 +1,9 @@
-<picture><source media="(min-width: 1012px)" srcset="./assets/black-hole-banner.png"><img width="100%" src="./assets/black-hole-banner-mobile.png" alt="Welcome to Jamshid’s GitHub. A luminous accretion disk bends around a black hole."></picture>
+<p><picture>
+  <source media="(min-width: 1012px) and (prefers-reduced-motion: no-preference)" srcset="./assets/animations/black-hole-banner.png">
+  <source media="(min-width: 1012px)" srcset="./assets/black-hole-banner.png">
+  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/animations/black-hole-banner-mobile.png">
+  <img width="100%" src="./assets/black-hole-banner-mobile.png" alt="Welcome to Jamshid’s GitHub. A luminous accretion disk bends around a black hole.">
+</picture></p>
 
 <p align="center">
   <a href="https://github.com/jamshid-muxsinov"><picture><source media="(min-width: 1012px)" srcset="./assets/icons/github.svg"><img src="./assets/icons/github-small.svg" alt="GitHub"></picture></a>
@@ -11,7 +16,12 @@
 ### <picture><img src="./assets/sections/about.svg" width="100%" height="32" alt="About me"></picture>
 
 <p>
-  <picture><source media="(min-width: 1012px)" srcset="./assets/astronaut-space.png"><img align="right" src="./assets/astronaut-space-mobile.png" alt="A seated astronaut watches a distant black hole from a rocky ledge."></picture>
+  <picture>
+    <source media="(min-width: 1012px) and (prefers-reduced-motion: no-preference)" srcset="./assets/animations/astronaut-space.png">
+    <source media="(min-width: 1012px)" srcset="./assets/astronaut-space.png">
+    <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/animations/astronaut-space-mobile.png">
+    <img align="right" src="./assets/astronaut-space-mobile.png" alt="A seated astronaut watches a distant black hole from a rocky ledge.">
+  </picture>
   Hi, I’m <strong>Jamshid</strong>, a software engineer. I build Python services, web interfaces, and mobile apps.
 </p>
 
