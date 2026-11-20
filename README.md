@@ -1,7 +1,7 @@
 <p><picture>
-  <source media="(min-width: 1012px) and (prefers-reduced-motion: no-preference)" srcset="./assets/animations/black-hole-banner.png">
+  <source media="(min-width: 1012px) and (prefers-reduced-motion: no-preference)" srcset="./assets/animations/black-hole-orbit.png">
   <source media="(min-width: 1012px)" srcset="./assets/black-hole-banner.png">
-  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/animations/black-hole-banner-mobile.png">
+  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/animations/black-hole-orbit-mobile.png">
   <img width="100%" src="./assets/black-hole-banner-mobile.png" alt="Welcome to Jamshid’s GitHub. A luminous accretion disk bends around a black hole.">
 </picture></p>
 
