@@ -111,13 +111,29 @@ def surface(x, y, w, h, name, content, main=False):
 </g>'''
 
 
-def medallion(x, y):
+def medallion(x, y, motion):
+    glint = '''
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .rim-glint { animation: sweep 9s linear infinite; }
+      @keyframes sweep {
+        from { opacity: 1; stroke-dashoffset: 0; }
+        to { opacity: 1; stroke-dashoffset: -100; }
+      }
+    }
+  </style>
+  <g class="rim-glint" opacity="0" fill="none" stroke-linecap="round">
+    <circle r="43" pathLength="100" stroke="#d1c5ff" stroke-width="3.1"
+            stroke-dasharray="8 92" opacity=".54"/>
+    <circle r="43" pathLength="100" stroke="#f5efff" stroke-width="2.5"
+            stroke-dasharray="4 96" transform="rotate(7.2)"/>
+  </g>''' if motion else ""
     return f'''<g transform="translate({x:g} {y:g})">
   <circle r="66" fill="url(#halo)"/>
   <circle r="43" fill="none" stroke="url(#rim)" stroke-width="7" opacity=".5" filter="url(#bloom)"/>
   <circle r="43" fill="url(#core)" stroke="#5d5caa" stroke-width="1.3"/>
   <circle r="43" fill="none" stroke="url(#rim)" stroke-width="3.2"
-          stroke-dasharray="201 70" transform="rotate(-89)"/>
+          stroke-dasharray="201 70" transform="rotate(-89)"/>{glint}
   <circle r="47" fill="none" stroke="#9394e4" stroke-opacity=".78"
           stroke-width="1.2" stroke-dasharray="64 232" transform="rotate(186)"/>
   <path transform="translate(-17 -17) scale(.35)" d="{GITHUB_MARK}" fill="#f6f5fa"/>
@@ -133,7 +149,7 @@ def short_date(value):
     return f"{calendar.month_abbr[day.month]} {day.day}"
 
 
-def main_card(snapshot, width, mobile=False):
+def main_card(snapshot, width, mobile=False, motion=False):
     metrics = snapshot["metrics"]
     year = snapshot["as_of"][:4]
     rows = [
@@ -155,9 +171,9 @@ def main_card(snapshot, width, mobile=False):
             label(value_x, baseline, number(value), 15.5 if mobile else 12.8, weight=650, anchor="end"),
         ])
     if mobile:
-        parts.append(f'<g transform="translate({width - 27} 25) scale(.36)">{medallion(0, 0)}</g>')
+        parts.append(f'<g transform="translate({width - 27} 25) scale(.36)">{medallion(0, 0, motion)}</g>')
     else:
-        parts.append(medallion(width - 68, 88))
+        parts.append(medallion(width - 68, 88, motion))
     return surface(0, 0, width, 185 if mobile else 177, "main", "\n".join(parts), main=True)
 
 
@@ -186,7 +202,7 @@ def small_card(x, y, w, h, name, value, caption, foot, mobile):
     return surface(x, y, w, h, name, "\n".join(parts))
 
 
-def statistics(snapshot, mobile=False):
+def statistics(snapshot, mobile=False, motion=False):
     year = snapshot["as_of"][:4]
     current = snapshot["streaks"]["current"]
     longest = snapshot["streaks"]["longest"]
@@ -205,7 +221,7 @@ def statistics(snapshot, mobile=False):
         ("flame", current["days"], ["Current Streak"], ["Consecutive days"]),
         ("trophy", longest["days"], ["Longest Streak"], best_dates),
     ]
-    parts = [stat_defs(), main_card(snapshot, main_width, mobile)]
+    parts = [stat_defs(), main_card(snapshot, main_width, mobile, motion)]
     for i, (name, value, caption, foot) in enumerate(specifications):
         x, y, cw, ch = (0, 192 + 67 * i, 280, 60) if mobile else (402 + 128 * i, 0, 117, 177)
         parts.append(small_card(x, y, cw, ch, name, value, caption, foot, mobile))
@@ -283,6 +299,8 @@ def render_assets(snapshot):
     return {
         "statistics.svg": statistics(snapshot),
         "statistics-mobile.svg": statistics(snapshot, mobile=True),
+        "statistics-motion.svg": statistics(snapshot, motion=True),
+        "statistics-mobile-motion.svg": statistics(snapshot, mobile=True, motion=True),
         "contributions.svg": contributions(snapshot),
         "contributions-mobile.svg": contributions(snapshot, mobile=True),
     }

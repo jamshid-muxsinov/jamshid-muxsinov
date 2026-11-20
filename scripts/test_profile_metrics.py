@@ -103,6 +103,11 @@ class ProfileMetricsTests(unittest.TestCase):
             summary = (output / "summary.md").read_text()
             self.assertIn(f"| Total contributions | {source['metrics']['contributions']} |", summary)
             self.assertIn(source["as_of"], summary)
+            for size in ("", "-mobile"):
+                static = (output / f"statistics{size}.svg").read_text()
+                animated = (output / f"statistics{size}-motion.svg").read_text()
+                self.assertNotIn("@keyframes", static)
+                self.assertIn('class="rim-glint"', animated)
             for file in output.iterdir():
                 self.assertEqual(file.read_bytes(), (profile.OUTPUT / file.name).read_bytes())
 

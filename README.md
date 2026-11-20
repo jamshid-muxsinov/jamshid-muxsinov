@@ -54,7 +54,12 @@ In my logistics simulator, a shipment gets held at customs. Students can wait, c
 
 ### <picture><img src="./assets/sections/statistics.svg" width="100%" height="32" alt="Statistics"></picture>
 
-<a href="./assets/stats/summary.md"><picture><source media="(min-width: 1012px)" srcset="./assets/stats/statistics.svg"><img width="100%" src="./assets/stats/statistics-mobile.svg" alt="Jamshid’s public GitHub statistics, year-to-date contributions, current streak, and longest streak. Open the text summary for values and sources."></picture></a>
+<p><a href="./assets/stats/summary.md"><picture>
+  <source media="(min-width: 1012px) and (prefers-reduced-motion: no-preference)" srcset="./assets/stats/statistics-motion.svg">
+  <source media="(min-width: 1012px)" srcset="./assets/stats/statistics.svg">
+  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/stats/statistics-mobile-motion.svg">
+  <img width="100%" src="./assets/stats/statistics-mobile.svg" alt="Jamshid’s public GitHub statistics, year-to-date contributions, current streak, and longest streak. Open the text summary for values and sources.">
+</picture></a></p>
 
 ### <picture><img src="./assets/sections/contributions.svg" width="100%" height="32" alt="Contribution Graph"></picture>
 

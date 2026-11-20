@@ -1,4 +1,4 @@
-"""Refresh the checked-in public GitHub snapshot and its four README images.
+"""Refresh the checked-in public GitHub snapshot and its README images.
 
 Run with Python 3.11+ and an authenticated gh CLI, or use --offline to render
 the previously verified snapshot. Calendars are always read as a signed-out
