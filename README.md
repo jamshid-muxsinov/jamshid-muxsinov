@@ -17,9 +17,9 @@
 
 <p>
   <picture>
-    <source media="(min-width: 1012px) and (prefers-reduced-motion: no-preference)" srcset="./assets/animations/astronaut-space.png">
+    <source media="(min-width: 1012px) and (prefers-reduced-motion: no-preference)" srcset="./assets/animations/astronaut-orbit.png">
     <source media="(min-width: 1012px)" srcset="./assets/astronaut-space.png">
-    <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/animations/astronaut-space-mobile.png">
+    <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/animations/astronaut-orbit-mobile.png">
     <img align="right" src="./assets/astronaut-space-mobile.png" alt="A seated astronaut watches a distant black hole from a rocky ledge.">
   </picture>
   Hi, I’m <strong>Jamshid</strong>, a software engineer. I build Python services, web interfaces, and mobile apps.
